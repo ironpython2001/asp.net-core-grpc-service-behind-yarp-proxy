@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcService1", "GrpcService1\GrpcService1.csproj", "{AA17B250-B3C2-4BA8-9991-7681A81F441B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcService1", "GrpcService1\GrpcService1.csproj", "{AA17B250-B3C2-4BA8-9991-7681A81F441B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProxy", "MyProxy\MyProxy.csproj", "{0AA9312F-5593-45DB-BB4F-ED8C983BD9B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyProxy", "MyProxy\MyProxy.csproj", "{0AA9312F-5593-45DB-BB4F-ED8C983BD9B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiGrpcClient", "WebApiGrpcClient\WebApiGrpcClient.csproj", "{C30B2648-6385-4550-A309-1CD3C9B244AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{0AA9312F-5593-45DB-BB4F-ED8C983BD9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AA9312F-5593-45DB-BB4F-ED8C983BD9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AA9312F-5593-45DB-BB4F-ED8C983BD9B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C30B2648-6385-4550-A309-1CD3C9B244AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30B2648-6385-4550-A309-1CD3C9B244AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30B2648-6385-4550-A309-1CD3C9B244AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30B2648-6385-4550-A309-1CD3C9B244AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
